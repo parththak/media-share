@@ -1,0 +1,45 @@
+node_modules
+package-lock.json
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+src/server/apollo-pbjs
+src/server/apollo-pbjs.cmd
+src/server/apollo-pbjs.ps1
+src/server/apollo-pbts
+src/server/apollo-pbts.cmd
+src/server/apollo-pbts.ps1
+src/server/mime
+src/server/mime.cmd
+src/server/mime.ps1
+src/server/semver
+src/server/semver.cmd
+src/server/semver.ps1
+src/server/sha.js
+src/server/sha.js.cmd
+src/server/sha.js.ps1
+src/server/uuid
+src/server/uuid.cmd
+src/server/uuid.ps1

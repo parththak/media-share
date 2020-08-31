@@ -1,0 +1,71 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 80px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.launch-container {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.launch-btn {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(19, 120, 99);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.launch-btn:hover {
+  background-color: rgb(19, 80, 99);
+  cursor: pointer;
+}
+
+.lobby-name {
+    width: 65%;
+    height: 100%;
+    margin-top: 6px;
+    border: none;
+    border-bottom: 4px solid rgb(19, 99, 99);;
+}
+
+.private {
+    background-color: rgb(19, 99, 99);
+}
+
+.toggle {
+    height: 25px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+
+    margin: 0 5px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.public {
+    background-color: rgba(195, 223, 223, 0.9)
+}

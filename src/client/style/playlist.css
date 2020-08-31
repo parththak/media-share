@@ -1,0 +1,82 @@
+.playlist-input {
+  width: 48vh;
+  height: 4vh;
+  margin-top: 2vh;
+  border: solid 1px black;
+  margin-bottom: 2px
+}
+
+/* Holding all playlist items */
+.playlist-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  height: 40vh;
+  width: 45vw;
+  margin-bottom:5px;
+  border: solid 2px black;
+  padding: 1%;
+  position: relative;
+  text-align: left;
+  overflow-x: scroll;
+}
+
+
+.playlist-item {
+  border: solid 1px black;
+  padding: 2%;
+  margin-right: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  height: 18vh;
+  width: 30vh;
+  font-size: 90%;
+  position: relative;
+}
+
+.video-thumbnail-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: initial;
+  justify-content: left;
+  margin-left: auto;
+}
+
+.thumbnail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  height: 12vh;
+  width: 16vh;
+  margin-top:8px;
+  margin-bottom: 5px;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+}
+
+.remove-playlist-icon {
+  background-image: url("../media/remove.png");
+  right:5px;
+  width: 3vh;
+  position: absolute;
+  height: 3vh;
+  padding: 1%;
+  background-size: 4vh 4vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px
+}
+.remove-playlist-icon:hover {
+  cursor: pointer;
+}
+
+.playlist-url p {
+  margin-block-start: 1px;
+  margin-block-end: 1px
+
+}

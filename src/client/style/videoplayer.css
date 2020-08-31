@@ -1,0 +1,25 @@
+.media-container {
+  width: 47vw;
+  height: 48vh;
+  margin-right:2vw
+}
+
+.sync-button {
+  font-size: 2vh;
+  margin-top: 5px;
+}
+
+.playlist-media {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 50vw;
+  height: 100%;
+}
+
+.screen-container video {
+  width:48vw;
+  height:48vh;
+  border: solid 2px black
+}

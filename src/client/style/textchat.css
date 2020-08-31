@@ -1,0 +1,91 @@
+.text-lobby {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  height: 35vh;
+  width: 30vw;
+  margin-top: 1%;
+  background-color: #f4f6f6;
+  box-shadow: 0px 5px 2px;
+  margin-bottom:10px
+}
+
+.user-message {
+  display: flex;
+  height: 30vh;
+  width: 60vh;
+  color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  align-content: center;
+}
+
+.message-tags {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.full-message {
+  padding: 5px;
+}
+
+.message-box {
+  width: 98%;
+}
+
+.label-box {
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.message-chat {
+  height: 8vh;
+  width: 100%;
+  margin: auto;
+  font-size: 15px;
+}
+
+.message-button {
+  border: none;
+  width: 50%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: rgb(19, 120, 99);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.message-button:hover {
+  background-color: rgb(19, 80, 99);
+  cursor: pointer;
+}
+
+.mainTextVideo {
+  display: flex;
+  margin: auto;
+}
+
+.chatBox {
+  margin-right:0%;
+  width: 60%;
+  background-color: rgb(19, 99, 99);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

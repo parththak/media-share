@@ -1,0 +1,175 @@
+.header-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(19, 99, 99);
+  color: #fff;
+}
+
+.login-signup-container,
+.profile-logout-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  height: 45px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(19, 120, 99);
+  margin: 0 5px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(19, 80, 99);
+  cursor: pointer;
+}
+
+.home {
+  position: absolute;
+  height: 45px;
+  width: 100px;
+  right: 100%;
+  left: 0%;
+  margin-left: 10px;
+}
+
+.share {
+  width: 300px;
+  background-color: rgb(19, 120, 60);
+}
+
+.login-container {
+  position: absolute;
+  z-index: 5999999;
+  top: 60px;
+  right: 8px;
+  width: 350px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(90, 146, 146, 0.897);
+  border: 4px solid rgb(19, 99, 99);
+  border-top: none;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.login-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: rgb(19, 120, 99);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.submitbtn-disabled {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: rgba(19, 120, 100, 0.034);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.submitbtn:hover {
+  background-color: rgb(19, 80, 99);
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loginContainer label {
+  margin-left: 10px;
+  margin-top: 3px;
+  flex-basis: 100%;
+  font-size: 18px;
+}
+
+.loginContainer input {
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-right: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.confirmation-container {
+  position: absolute;
+  z-index: 6000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  right: 50%;
+  top: 50%;
+  margin-right: -175px;
+  margin-top: -100px;
+  width: 350px;
+  height: 200px;
+  background-color: rgba(90, 146, 146, 0.897);
+  border: 4px solid rgb(19, 99, 99);
+  border-radius: 15px;
+}
+
+.button-container {
+  display: flex;
+}
+
+#logged-in-user-icon {
+  margin: 0 5px;
+  cursor: pointer;
+  height: 5vh;
+}
+
+.user-icon {
+  background-image: url("../media/user.svg");
+  margin: auto;
+  width: 3vh;
+  height: 3vh;
+  padding: 1%;
+  background-size: 3vh 3vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-logo {
+  background-image: url("../media/logo.png");
+  display: flex;
+  align-self: auto;
+  cursor: pointer;
+  margin-right: auto;
+  width: 5vh;
+  height: 5vh;
+  padding: 1%;
+  background-size: 4vh 4vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}

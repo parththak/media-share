@@ -1,0 +1,14 @@
+.user-container {
+  width: 44vw;
+  height: 48vh;
+  background-color: bisque;
+  padding: 2%;
+  margin-bottom:5vh
+}
+.user-container button:first-of-type {
+  background-color: black;
+  font-size: 12px;
+  color: white;
+  border: 1px solid #ccc;
+}
+

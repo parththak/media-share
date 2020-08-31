@@ -1,0 +1,61 @@
+.currUserContainer {
+  width: 16vw;
+  height:18vh;
+  background-color: black;
+  position: relative;
+  border:0.5px solid black;
+  margin-bottom:2vh
+
+}
+
+.userCommands {
+  display: flex;
+  justify-content: space-evenly;
+  width: 16vw  ;
+  height: 4vh;
+  background-color: white;
+  color:black;
+  border:0.5px solid black;
+}
+
+.userVideo video {
+  width: 16vw  ;
+  height: 18vh ;
+}
+
+.userVideo {
+  height: 18vh
+}
+
+.mediaIcon {
+  margin-top:5px; 
+  height: 3vh;
+  width: 3vh;
+  border:none;
+  background: transparent ;
+  background-size: 3vh 3vh ;
+  background-repeat: no-repeat ;
+}
+
+#mic-button-on {
+  background-image: url("../icons/mic.png");
+}
+
+#mic-button-off {
+  background-image: url("../icons/mic-off.png");
+}
+
+#video-button-on {
+  background-image: url("../icons/video-on.png");
+}
+
+#video-button-off {
+  background-image: url("../icons/video-off.png");
+}
+
+.userVideoBoxes {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-content: space-between
+}

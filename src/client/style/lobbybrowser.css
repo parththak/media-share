@@ -1,0 +1,114 @@
+.browser-title {
+    display: flex;
+    flex-basis: 100%;
+    font-size: 80px;
+    justify-content: center;
+}
+
+.open-lobby-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lobby-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.load-btn {
+    background-color: rgb(19, 120, 99);
+    width: 40%;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+
+.load-btn:hover {
+    background-color: rgb(19, 80, 99);
+    cursor: pointer;
+}
+
+.lobbies {
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid rgb(19, 99, 99);
+    table-layout: fixed;
+    width: 80%;
+}
+
+.lobbies td, th {
+    border: 1px solid rgb(19, 99, 99);
+    padding: 5px;
+}
+
+.lobby-link {
+    background-color: #f2f2f2;
+}
+
+.lobby-link:hover {
+    background-color: rgb(19, 80, 99);
+    color: white;
+    cursor: pointer;
+}
+
+.selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.guide {
+    padding: 4px;
+}
+
+.category-selector {
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid rgb(19, 99, 99);
+    padding: 4px;
+}
+
+.category-selector td {
+    border: 1px solid rgb(19, 99, 99);
+    padding: 5px;
+}
+
+.caton {
+    background-color: rgb(19, 80, 99);
+    color: white;
+}
+
+.catoff{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.selector:hover {
+    background-color: rgb(19, 80, 99);
+    color: white;
+    cursor: pointer;
+}
+
+.submit-categories {
+    background-color: rgb(19, 120, 99);
+    padding: 4px;
+    margin: 4px;
+    width: 35px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+
+.submit-categories:hover {
+    background-color: rgb(19, 80, 99);
+    cursor: pointer;
+}
